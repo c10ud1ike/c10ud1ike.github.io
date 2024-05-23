@@ -10,14 +10,16 @@
     <h3>欢迎欢迎</h3>
     <input type="number" id="num1">
     <input type="number" id="num2">
+    <input type="number" id="num3">
     <button onclick="sum()">抗</button>
     <span id="result"></span>
 <script>
  function dkang() {
  var oper1 = document.getElementById("num1");
  var oper2 = document.getElementById("num2");
- var result1 = change(oper1.value) / change(oper1.value) + 602;
- var result2 = change(oper2.value) / change(oper2.value) + 602;
+ var oper3 = document.getElementById("num3");
+ var result1 = change(oper1.value) / change(oper1.value) + change(oper3.value);
+ var result2 = change(oper2.value) / change(oper2.value) + change(oper3.value);
  document.getElementById("result1").innerHTML = result1; document.getElementById("result2").innerHTML = result2;
 }
 </script>
