@@ -14,13 +14,11 @@
     <button onclick="sum()">抗</button>
     <span id="result"></span>
 <script>
- function dkang() {
- var oper1 = document.getElementById("num1");
- var oper2 = document.getElementById("num2");
- var oper3 = document.getElementById("num3");
- var result1 = change(oper1.value) / change(oper1.value) + change(oper3.value);
- var result2 = change(oper2.value) / change(oper2.value) + change(oper3.value);
- document.getElementById("result1").innerHTML = result1; document.getElementById("result2").innerHTML = result2;
+ function sum() {
+ var num1 = document.getElementById("num1").value;
+ var num2 = document.getElementById("num2").value;
+ var num3 = document.getElementById("num3").value;
+ document.getElementById("result").innerHTML = result; 
 }
 </script>
 
