@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+   <title> </title>
+    <style>
+                 body{
+                           background: linear-gradient(to right,#65CBF7,#B3A5FC);
+                           width: 100vw;
+                           height: 100vh;
+                           margin: 0;
+                           }  
+                   .box{
+                            width: 60%;
+                             height: 450px;
+                             box-shadow: 0 5px 15px rgba(0,0,0,.8);
+                             display: flex;
+                              position: fixed;
+                              top: 50%;
+                              left: 50%;
+                              transform: translate(-50%,-50%);
+                                }
+                      .left{
+                              width: 65px;
+                              }
+                       .left>img{
+                                        display: block;
+                                         width: 100%;
+                                          height: 100%;
+                                          object-fit: cover;
+                                         }
+                    .right{
+                               width: 35%;
+                               height: 100%;
+                               background-color: #fff;
+                               box-sizing: border-box;
+                               padding:0 20px;
+                              }
+                      h1{
+                             text-align: center;
+                             padding-top: 45px;
+                              margin-top: 0;
+                            }
+                           .inputItem{
+                                              height: 44px;
+                                              padding: 0;
+                                               padding-left: 5px;
+                                               border: none;
+                                                background: none;
+                                                outline: none;
+                                                border-bottom: 3px solid #B3A5FC;
+                                                width: 100%;
+                                                font-size: 18px;
+                                                  margin-top: 20px;
+                                                }
+                              .forgetPassword{
+                                           margin-top: 25px;
+                                           color: #9C3493;
+                                            text-align:right;
+                                             display: block;
+                                            }
+                                  .btn{
+                                           background: linear#65CBF7;
+                                           color: #9C3493;
+                                           font-weight: bold;
+                                           border: none;
+                                           border-radius: 30px;
+                                           height: 46px;
+                                           width: 80%;
+                                           font-size: 18px;
+                                            display: block;
+                                             margin: auto;
+                                             margin-top: 30px;
+                                          }
+                                          /* shipei pc */
+                                        @media screen and (min-width: 960px){
+                                                       .box{
+                                                                max-width: 950px;
+                                                                min-width: 750px;
+                                                               }
+                                           }
+                                            @media screen and (min-width: 960px){
+                                                       .box{
+                                                                display: block;
+                                                                height: auto;
+                                                               }
+                                                       .left,.right{
+                                                                          width: 100%;
+                                                                           margin-top: 0;
+                                                                           }
+                                                         .left{
+                                                                height: 200px;
+                                                                 }
+                                                              .right{
+                                                                         padding: 2vw 2vw;
+                                                                           }
+                                                                h1{
+                                                                       padding-top: 0;
+                                                                      margin-bottom: 1vw;
+                                                                      }
+                                                                .inputItem,.forgetPassword,.btn{
+                                                                                                                        margin-top: 2vw;
+                                                                                                                        }
+                                           }
+                                         @media screen and (max-width: 750px){
+                                          .box{
+                                                   width: 85%;
+                                                  }
+                                            }
+
+
+     </style>
+ </head>
+ <body>
+              <div class="box">
+                         <div class="left">
+                                  <img src="cs.png",alt="">
+                           </div>
+                          <div class="right">
+                                   <h1> Login </h1>
+                                    <input type="text" class="inputItem" placeholder="your account">
+                                     <input type="password" class="inputItem" placeholder="your password">
+                                      <a href="#" class="fogetPassword">forget password?</a>
+                                      <button class="btn">Login</button>
+ </body>
+</html>
