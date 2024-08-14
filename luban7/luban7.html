@@ -1,0 +1,45 @@
+<!DOCTYPE html><!--声明定义此文档是html5文档-->
+<html lang="zh-CN"><!--声明网页语言为中文-->
+    <head><!--包含有关html的页面-->
+        <title>小站</title><!--显示在浏览器标题栏或选项卡-->
+        <link rel="stylesheet" href="luban7.css"><!--使用外部样式表，添加指向他的链接-->
+    </head>
+    <body><!--定义document正文-->
+        <h1></h1><!--大标题-->
+        <button type="button" class="button">游</button>
+        <button2 type="button" class="button2">射</button2>
+        <button3 type="button" class="button3">中</button3>
+        <button4 type="button" class="button4">野</button4>
+        <button5 type="button" class="button5">抗</button5>
+        <div>
+            <xzk>
+                <p>看这里</p>
+                <img src="1.jpg" alt="ssy" width="100px" height="100px">
+                <img src="2.jpg" alt="yx" width="100px" height="100px" >
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+                <img src="3.jpg" alt="cwj" width="100px" height="100px">
+            </xzk>
+        </div>
+        <div class="loading" id="loa">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <script>
+            let loa =document.getElementById("loa");
+            loa.addEventListener("animationend",function(){
+                this.style.display="none";
+            });
+        </script>
+    </body>
+</html>
